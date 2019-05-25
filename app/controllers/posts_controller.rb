@@ -6,6 +6,7 @@ class PostsController < ApplicationController
   end
 
   def show
+    pry
   end
 
   def new
