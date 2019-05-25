@@ -5,11 +5,6 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-  def body
-    post = Post.find(params[:id])
-
-  end
-
   def show
   end
 
