@@ -9,6 +9,7 @@ class PostsController < ApplicationController
   end
 
   def new
+    pry
     @post = Post.new
   end
 
